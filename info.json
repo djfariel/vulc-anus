@@ -10,6 +10,13 @@
   ],
   "description": "Removes Gleba's coverings.",
   "package": {
-    "readme": "README.md"
+    "readme": "README.md",
+    "ignore": [
+      "image1.png",
+      "image2.png",
+      "thumbnail.png",
+      "*.gif",
+      ".gitignore"
+    ]
   }
 }
