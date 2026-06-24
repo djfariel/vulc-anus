@@ -4,4 +4,4 @@ Removes Gleba's coverings.
 
 ![](https://raw.githubusercontent.com/djfariel/gleba-uncensored/main/image2.png)
 
-<!-- third gif: link it here -->
+![](https://raw.githubusercontent.com/djfariel/gleba-uncensored/refs/heads/main/factorio_27B2nwjbst.gif)
