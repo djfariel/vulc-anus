@@ -1,14 +1,14 @@
 {
-  "name": "gleba-uncensored",
-  "version": "0.1.2",
-  "title": "Gleba Uncensored",
+  "name": "vulc-anus",
+  "version": "0.1.0",
+  "title": "Vulcanus' Vulc-Anus",
   "author": "djfariel",
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1",
     "space-age >= 2.1"
   ],
-  "description": "Removes Gleba's coverings.",
+  "description": "Vulcanus strives to be more like Gleba.",
   "package": {
     "readme": "README.md",
     "ignore": [

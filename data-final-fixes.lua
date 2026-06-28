@@ -1,21 +1,26 @@
-local gleba = data.raw.planet["gleba"]
-local backdrop = gleba
-  and gleba.platform_surface_render_parameters
-  and gleba.platform_surface_render_parameters.platform_backdrop
+local vulcanus = data.raw.planet["vulcanus"]
+local backdrop = vulcanus
+  and vulcanus.platform_surface_render_parameters
+  and vulcanus.platform_surface_render_parameters.platform_backdrop
 
 if backdrop then
-  backdrop.surface_normal_intensity = -1.0
+  backdrop.surface_normal_intensity = 1.0
 
-  backdrop.global_cloud =
+  backdrop.planet_surface =
   {
-    filename = "__gleba-uncensored__/graphics/gleba-cloud.png",
+    filename = "__vulc-anus__/graphics/vulcanus.png",
     width = 2048,
     height = 1024
   }
-
+  backdrop.planet_emission =
+  {
+    filename = "__vulc-anus__/graphics/vulcanus-emission.png",
+    width = 2048,
+    height = 1024
+  }
   backdrop.planet_normal =
   {
-    filename = "__gleba-uncensored__/graphics/gleba_normal.png",
+    filename = "__vulc-anus__/graphics/vulcanus-normal.png",
     width = 2048,
     height = 1024
   }
